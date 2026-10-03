@@ -3,11 +3,11 @@
     "metadata": {
         "plugin": "realclaudian",
         "version": "1.0.0",
-        "title": "[zh-cn] Claudian",
+        "title": "[Rainie][zh-cn] Claudian",
         "description": "Claudian Localization & Tweaks",
         "language": "zh-cn",
         "supportedVersions": "2.3.0",
-        "author": ""
+        "author": "Rainie"
     },
     "dict": {
         "main.js": {
@@ -910,7 +910,7 @@
                     "type": "CallExpression",
                     "name": "setText",
                     "source": "Effort:",
-                    "target": "努力："
+                    "target": "Effort:"
                 },
                 {
                     "type": "CallExpression",
