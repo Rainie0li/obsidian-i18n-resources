@@ -1,0 +1,1050 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "advanced-rename-and-delete-handler",
+        "version": "1.0.0",
+        "title": "Advanced Rename and Delete Handler",
+        "description": "Advanced Rename and Delete Handler Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (unloaded)",
+                    "target": " (unloaded)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Whether to handle renames and moves at all.",
+                    "target": "Whether to handle renames and moves at all."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "When enabled, this plugin updates the links pointing at a renamed or moved file, replacing Obsidian's own link update.",
+                    "target": "When enabled, this plugin updates the links pointing at a renamed or moved file, replacing Obsidian's own link update."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "When disabled, Obsidian handles renames on its own and nothing below has any effect.",
+                    "target": "When disabled, Obsidian handles renames on its own and nothing below has any effect."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Whether an attachment that collides with an existing file at the destination replaces it.",
+                    "target": "Whether an attachment that collides with an existing file at the destination replaces it."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "⚠️ This deletes the file already at the destination. When disabled, the moved attachment is renamed instead.",
+                    "target": "⚠️ This deletes the file already at the destination. When disabled, the moved attachment is renamed instead."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Whether deleting a note also deletes the attachments only that note referenced.",
+                    "target": "Whether deleting a note also deletes the attachments only that note referenced."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "⚠️ An attachment still referenced by another note is never deleted, but everything else the note owned is.",
+                    "target": "⚠️ An attachment still referenced by another note is never deleted, but everything else the note owned is."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Whether an attachment that survives a deletion, because another note still references it, is moved into that note's attachment folder.",
+                    "target": "Whether an attachment that survives a deletion, because another note still references it, is moved into that note's attachment folder."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "When disabled, the attachment stays where the deleted note had put it.",
+                    "target": "When disabled, the attachment stays where the deleted note had put it."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Which note adopts an attachment several notes reference, highest priority first.",
+                    "target": "Which note adopts an attachment several notes reference, highest priority first."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each entry on a new line. An entry is an extension such as ",
+                    "target": "Insert each entry on a new line. An entry is an extension such as "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", a ",
+                    "target": ", a "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " match, or a ",
+                    "target": " match, or a "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, or two notes tie, the list settles nothing and the row below decides what happens.",
+                    "target": "If the setting is empty, or two notes tie, the list settles nothing and the row below decides what happens."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "What to do when the priority list above settles nothing — it is empty, nothing in it matches, or two notes tie.",
+                    "target": "What to do when the priority list above settles nothing — it is empty, nothing in it matches, or two notes tie."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Ask shows the notes keeping the attachment alive, says why the list did not decide, and moves the attachment into whichever one you pick.",
+                    "target": "Ask shows the notes keeping the attachment alive, says why the list did not decide, and moves the attachment into whichever one you pick."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Leave it in place keeps the attachment, and the folder holding it, exactly where they are.",
+                    "target": "Leave it in place keeps the attachment, and the folder holding it, exactly where they are."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Files with these extensions are attachments even though their extension says otherwise.",
+                    "target": "Files with these extensions are attachments even though their extension says otherwise."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each extension on a new line, e.g. ",
+                    "target": "Insert each extension on a new line, e.g. "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for a drawing that is stored as markdown.",
+                    "target": " for a drawing that is stored as markdown."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Handle only the following paths.",
+                    "target": "Handle only the following paths."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each path on a new line",
+                    "target": "Insert each path on a new line"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You can use path string or ",
+                    "target": "You can use path string or "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, the whole vault is handled.",
+                    "target": "If the setting is empty, the whole vault is handled."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Leave the following paths alone.",
+                    "target": "Leave the following paths alone."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, no paths are excluded.",
+                    "target": "If the setting is empty, no paths are excluded."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Not running: these plugins still handle renames and deletes themselves, and two handlers would corrupt links.",
+                    "target": "Not running: these plugins still handle renames and deletes themselves, and two handlers would corrupt links."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Update them, or disable them, and this plugin starts on its own next time Obsidian opens.",
+                    "target": "Update them, or disable them, and this plugin starts on its own next time Obsidian opens."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "progress",
+                    "target": "progress"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "No Intl support, please use an Intl polyfill!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing item",
+                    "target": "Error processing item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Only canvas changes are supported for canvas files",
+                    "target": "Only canvas changes are supported for canvas files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node not found",
+                    "target": "Node not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node text is not a string",
+                    "target": "Node text is not a string"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported file change",
+                    "target": "Unsupported file change"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "initialized",
+                    "target": "initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "OK",
+                    "target": "OK"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Leave it here",
+                    "target": "Leave it here"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use the same answer for the rest of this deletion",
+                    "target": "Use the same answer for the rest of this deletion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Attachment used by several notes",
+                    "target": "Attachment used by several notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to the current value, leaving this setting as it is",
+                    "target": "Reset to the current value, leaving this setting as it is"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`.",
+                    "target": "Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "accessing an object - but returnObjects options is not enabled!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format.",
+                    "target": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "nesting options string contains interpolated variables with escapeValue: false — if any of those values are attacker-controlled they can inject additional nesting options (e.g. redirect lng/ns). Sanitise untrusted input before passing it to t(), or keep escapeValue: true.",
+                    "target": "nesting options string contains interpolated variables with escapeValue: false — if any of those values are attacker-controlled they can inject additional nesting options (e.g. redirect lng/ns). Sanitise untrusted input before passing it to t(), or keep escapeValue: true."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "No backend was added via i18next.use. Will not load resources."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: no languageDetector is used and no lng is defined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next is already initialized. You should call init just once!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next was not initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18n.languages were undefined or empty",
+                    "target": "hasLoadedNamespace: i18n.languages were undefined or empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[remark-wiki-link] Warning: please upgrade to remark 13 to use this plugin",
+                    "target": "[remark-wiki-link] Warning: please upgrade to remark 13 to use this plugin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "advanced-rename-and-delete-handler rescue-ambiguity-reason",
+                    "target": "advanced-rename-and-delete-handler rescue-ambiguity-reason"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "advanced-rename-and-delete-handler rescue-ambiguity-buttons",
+                    "target": "advanced-rename-and-delete-handler rescue-ambiguity-buttons"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "advanced-rename-and-delete-handler rescue-ambiguity-notes",
+                    "target": "advanced-rename-and-delete-handler rescue-ambiguity-notes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether renaming a note also rewrites the display text of the links that pointed at its old name.",
+                    "target": "Whether renaming a note also rewrites the display text of the links that pointed at its old name."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether renaming a note also renames or moves its attachment folder alongside it.",
+                    "target": "Whether renaming a note also renames or moves its attachment folder alongside it."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether renaming a note also renames the attachment files that travel with it, so their names keep matching the note.",
+                    "target": "Whether renaming a note also renames the attachment files that travel with it, so their names keep matching the note."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "What to do with a folder that a deletion or a move has left empty.",
+                    "target": "What to do with a folder that a deletion or a move has left empty."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "body external links",
+                    "target": "body external links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "frontmatter external links",
+                    "target": "frontmatter external links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "multi-value frontmatter external links",
+                    "target": "multi-value frontmatter external links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "multi-value frontmatter links",
+                    "target": "multi-value frontmatter links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Renames and moves",
+                    "target": "Renames and moves"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Deletions",
+                    "target": "Deletions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Scope",
+                    "target": "Scope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Debug mode: intentional placeholder error. See https://mnaoumov.dev/obsidian-dev-utils/guides/debugging/.",
+                    "target": "Debug mode: intentional placeholder error. See https://mnaoumov.dev/obsidian-dev-utils/guides/debugging/."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "retryWithTimeout failed",
+                    "target": "retryWithTimeout failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Run with timeout failed",
+                    "target": "Run with timeout failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "loop failed",
+                    "target": "loop failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open demo vault",
+                    "target": "Open demo vault"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unlock active note",
+                    "target": "Unlock active note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "attention",
+                    "target": "attention"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "autolink",
+                    "target": "autolink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "definition",
+                    "target": "definition"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete empty folders",
+                    "target": "Delete empty folders"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom Attachment Location",
+                    "target": "Custom Attachment Location"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Consistent Attachments and Links",
+                    "target": "Consistent Attachments and Links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Better Markdown Links",
+                    "target": "Better Markdown Links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "External Rename Handler",
+                    "target": "External Rename Handler"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frontmatter Markdown Links",
+                    "target": "Frontmatter Markdown Links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should handle renames",
+                    "target": "Should handle renames"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should update file name aliases",
+                    "target": "Should update file name aliases"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename attachment folder",
+                    "target": "Should rename attachment folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename attachment files",
+                    "target": "Should rename attachment files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should delete conflicting attachments",
+                    "target": "Should delete conflicting attachments"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should handle deletions",
+                    "target": "Should handle deletions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Empty folder behavior",
+                    "target": "Empty folder behavior"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rescue shared attachments",
+                    "target": "Should rescue shared attachments"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note priorities",
+                    "target": "Note priorities"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Treat as attachment extensions",
+                    "target": "Treat as attachment extensions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Include paths",
+                    "target": "Include paths"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude paths",
+                    "target": "Exclude paths"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "When several notes could adopt the attachment",
+                    "target": "When several notes could adopt the attachment"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prompt",
+                    "source": "Ask which note adopts it",
+                    "target": "Ask which note adopts it"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Keep",
+                    "target": "Keep"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Delete",
+                    "target": "Delete"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Delete with empty parents",
+                    "target": "Delete with empty parents"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "skip",
+                    "source": "Leave it in place",
+                    "target": "Leave it in place"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Each row shows what this plugin holds now and what is proposed. Edit a suggested value, or reset a row to keep the current one. Nothing is written until you press OK.",
+                    "target": "Each row shows what this plugin holds now and what is proposed. Edit a suggested value, or reset a row to keep the current one. Nothing is written until you press OK."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pick the note that should adopt it, or leave it where it is.",
+                    "target": "Pick the note that should adopt it, or leave it where it is."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Still referenced by:",
+                    "target": "Still referenced by:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"No Intl support, please use an Intl polyfill!\")",
+                    "target": "error(\"No Intl support, please use an Intl polyfill!\")"
+                },
+                {
+                    "source": "log(\"languageChanged\",c)):this.isLanguageChangingTo=void 0,r.resolve((...u)=>this.t(...u)),t&&t(l,(...u)=>this.t(...u))},\"done\")",
+                    "target": "log(\"languageChanged\",c)):this.isLanguageChangingTo=void 0,r.resolve((...u)=>this.t(...u)),t&&t(l,(...u)=>this.t(...u))},\"done\")"
+                },
+                {
+                    "source": "appendText(\" (unloaded)\")",
+                    "target": "appendText(\" (unloaded)\")"
+                },
+                {
+                    "source": "appendText(`\n`)",
+                    "target": "appendText(`\n`)"
+                },
+                {
+                    "source": "Notice(`Could not find plugin ${a} in the community plugins registry.`)",
+                    "target": "Notice(`Could not find plugin ${a} in the community plugins registry.`)"
+                },
+                {
+                    "source": "Notice(`No demo vault is available for plugin ${t} v${a}.`)",
+                    "target": "Notice(`No demo vault is available for plugin ${t} v${a}.`)"
+                },
+                {
+                    "source": "error(`Invalid settings from data.json. Expected Object, got: ${typeof t}`)",
+                    "target": "error(`Invalid settings from data.json. Expected Object, got: ${typeof t}`)"
+                },
+                {
+                    "source": "appendText(\": \")",
+                    "target": "appendText(\": \")"
+                },
+                {
+                    "source": "appendText(\" \")",
+                    "target": "appendText(\" \")"
+                },
+                {
+                    "source": "appendText(`: ${i.operationName}`)",
+                    "target": "appendText(`: ${i.operationName}`)"
+                },
+                {
+                    "source": "error(\"Only canvas changes are supported for canvas files\",{change:u,path:i});continue}let d=l.nodes[u.reference.nodeIndex];if(!d)return console.error(\"Node not found\",{nodeIndex:u.reference.nodeIndex,path:i}),r;if(ov(u)){if(d.file!==u.oldContent)return $(\"FileChange:applyCanvasChanges\")",
+                    "target": "error(\"Only canvas changes are supported for canvas files\",{change:u,path:i});continue}let d=l.nodes[u.reference.nodeIndex];if(!d)return console.error(\"Node not found\",{nodeIndex:u.reference.nodeIndex,path:i}),r;if(ov(u)){if(d.file!==u.oldContent)return $(\"FileChange:applyCanvasChanges\")"
+                },
+                {
+                    "source": "error(\"Node not found\",{nodeIndex:u,path:i}),r;if(typeof p.text!=\"string\")",
+                    "target": "error(\"Node not found\",{nodeIndex:u,path:i}),r;if(typeof p.text!=\"string\")"
+                },
+                {
+                    "source": "error(\"Unsupported file change\",m):(rk(m,d)&&(m.newContent=m.newContent.replaceAll(Qh,()=>$x)),u.push(m))}return u}o(Zx,\"getFileChanges\")",
+                    "target": "error(\"Unsupported file change\",m):(rk(m,d)&&(m.newContent=m.newContent.replaceAll(Qh,()=>$x)),u.push(m))}return u}o(Zx,\"getFileChanges\")"
+                },
+                {
+                    "source": "Notice(`Updated ${Oc(r.size,\"link\")} in ${Oc(t.size,\"file\")}.`)",
+                    "target": "Notice(`Updated ${Oc(r.size,\"link\")} in ${Oc(t.size,\"file\")}.`)"
+                },
+                {
+                    "source": "Notice(`Attachment ${t} is still used by other notes. It was moved to ${s}.`)",
+                    "target": "Notice(`Attachment ${t} is still used by other notes. It was moved to ${s}.`)"
+                },
+                {
+                    "source": "Notice(`Attachment ${r} is still used by other notes. Its folder was moved to ${l.newFolderPath}.`)",
+                    "target": "Notice(`Attachment ${r} is still used by other notes. Its folder was moved to ${l.newFolderPath}.`)"
+                },
+                {
+                    "source": "setText(`Settings proposed by ${this.sourcePluginName}`)",
+                    "target": "setText(`Settings proposed by ${this.sourcePluginName}`)"
+                },
+                {
+                    "source": "setDesc(`Currently: ${p0(e.currentValue)}`)",
+                    "target": "setDesc(`Currently: ${p0(e.currentValue)}`)"
+                },
+                {
+                    "source": "setTooltip(\"Reset to the current value, leaving this setting as it is\")",
+                    "target": "setTooltip(\"Reset to the current value, leaving this setting as it is\")"
+                },
+                {
+                    "source": "appendText(\"Whether to handle renames and moves at all.\")",
+                    "target": "appendText(\"Whether to handle renames and moves at all.\")"
+                },
+                {
+                    "source": "appendText(\"When enabled, this plugin updates the links pointing at a renamed or moved file, replacing Obsidian's own link update.\")",
+                    "target": "appendText(\"When enabled, this plugin updates the links pointing at a renamed or moved file, replacing Obsidian's own link update.\")"
+                },
+                {
+                    "source": "appendText(\"When disabled, Obsidian handles renames on its own and nothing below has any effect.\")",
+                    "target": "appendText(\"When disabled, Obsidian handles renames on its own and nothing below has any effect.\")"
+                },
+                {
+                    "source": "appendText(\"Whether an attachment that collides with an existing file at the destination replaces it.\")",
+                    "target": "appendText(\"Whether an attachment that collides with an existing file at the destination replaces it.\")"
+                },
+                {
+                    "source": "appendText(\"Whether deleting a note also deletes the attachments only that note referenced.\")",
+                    "target": "appendText(\"Whether deleting a note also deletes the attachments only that note referenced.\")"
+                },
+                {
+                    "source": "appendText(\"Whether an attachment that survives a deletion, because another note still references it, is moved into that note's attachment folder.\")",
+                    "target": "appendText(\"Whether an attachment that survives a deletion, because another note still references it, is moved into that note's attachment folder.\")"
+                },
+                {
+                    "source": "appendText(\"When disabled, the attachment stays where the deleted note had put it.\")",
+                    "target": "appendText(\"When disabled, the attachment stays where the deleted note had put it.\")"
+                },
+                {
+                    "source": "appendText(\"Which note adopts an attachment several notes reference, highest priority first.\")",
+                    "target": "appendText(\"Which note adopts an attachment several notes reference, highest priority first.\")"
+                },
+                {
+                    "source": "appendText(\"Insert each entry on a new line. An entry is an extension such as \")",
+                    "target": "appendText(\"Insert each entry on a new line. An entry is an extension such as \")"
+                },
+                {
+                    "source": "appendText(\", a \")",
+                    "target": "appendText(\", a \")"
+                },
+                {
+                    "source": "appendText(\" match, or a \")",
+                    "target": "appendText(\" match, or a \")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, or two notes tie, the list settles nothing and the row below decides what happens.\")",
+                    "target": "appendText(\"If the setting is empty, or two notes tie, the list settles nothing and the row below decides what happens.\")"
+                },
+                {
+                    "source": "appendText(\"Ask shows the notes keeping the attachment alive, says why the list did not decide, and moves the attachment into whichever one you pick.\")",
+                    "target": "appendText(\"Ask shows the notes keeping the attachment alive, says why the list did not decide, and moves the attachment into whichever one you pick.\")"
+                },
+                {
+                    "source": "appendText(\"Leave it in place keeps the attachment, and the folder holding it, exactly where they are.\")",
+                    "target": "appendText(\"Leave it in place keeps the attachment, and the folder holding it, exactly where they are.\")"
+                },
+                {
+                    "source": "appendText(\"Files with these extensions are attachments even though their extension says otherwise.\")",
+                    "target": "appendText(\"Files with these extensions are attachments even though their extension says otherwise.\")"
+                },
+                {
+                    "source": "appendText(\"Insert each extension on a new line, e.g. \")",
+                    "target": "appendText(\"Insert each extension on a new line, e.g. \")"
+                },
+                {
+                    "source": "appendText(\" for a drawing that is stored as markdown.\")",
+                    "target": "appendText(\" for a drawing that is stored as markdown.\")"
+                },
+                {
+                    "source": "appendText(\"Handle only the following paths.\")",
+                    "target": "appendText(\"Handle only the following paths.\")"
+                },
+                {
+                    "source": "appendText(\"Insert each path on a new line\")",
+                    "target": "appendText(\"Insert each path on a new line\")"
+                },
+                {
+                    "source": "appendText(\"You can use path string or \")",
+                    "target": "appendText(\"You can use path string or \")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, the whole vault is handled.\")",
+                    "target": "appendText(\"If the setting is empty, the whole vault is handled.\")"
+                },
+                {
+                    "source": "appendText(\"Leave the following paths alone.\")",
+                    "target": "appendText(\"Leave the following paths alone.\")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, no paths are excluded.\")",
+                    "target": "appendText(\"If the setting is empty, no paths are excluded.\")"
+                },
+                {
+                    "source": "setText(\"Attachment used by several notes\")",
+                    "target": "setText(\"Attachment used by several notes\")"
+                },
+                {
+                    "source": "setName(\"Use the same answer for the rest of this deletion\")",
+                    "target": "setName(\"Use the same answer for the rest of this deletion\")"
+                },
+                {
+                    "source": "setButtonText(`Move to ${be(i)}`)",
+                    "target": "setButtonText(`Move to ${be(i)}`)"
+                },
+                {
+                    "source": "setTooltip(`Move the attachment into the attachment folder of ${i}`)",
+                    "target": "setTooltip(`Move the attachment into the attachment folder of ${i}`)"
+                },
+                {
+                    "source": "setButtonText(\"Leave it here\")",
+                    "target": "setButtonText(\"Leave it here\")"
+                },
+                {
+                    "source": "appendText(\"Not running: these plugins still handle renames and deletes themselves, and two handlers would corrupt links.\")",
+                    "target": "appendText(\"Not running: these plugins still handle renames and deletes themselves, and two handlers would corrupt links.\")"
+                },
+                {
+                    "source": "appendText(\"Update them, or disable them, and this plugin starts on its own next time Obsidian opens.\")",
+                    "target": "appendText(\"Update them, or disable them, and this plugin starts on its own next time Obsidian opens.\")"
+                },
+                {
+                    "source": "name:\"Handle rename: {{oldPath}} -> {{newPath}}\"",
+                    "target": "name:\"Handle rename: {{oldPath}} -> {{newPath}}\""
+                },
+                {
+                    "source": "text:`Open demo vault for latest version (v${h})`",
+                    "target": "text:`Open demo vault for latest version (v${h})`"
+                },
+                {
+                    "source": "text:`Open demo vault for current version (v${p})`",
+                    "target": "text:`Open demo vault for current version (v${p})`"
+                },
+                {
+                    "source": "name:\"Open demo vault\"",
+                    "target": "name:\"Open demo vault\""
+                },
+                {
+                    "source": "name:\"Unlock active note\"",
+                    "target": "name:\"Unlock active note\""
+                },
+                {
+                    "source": "description:\"body external links\"",
+                    "target": "description:\"body external links\""
+                },
+                {
+                    "source": "description:\"frontmatter external links\"",
+                    "target": "description:\"frontmatter external links\""
+                },
+                {
+                    "source": "description:\"multi-value frontmatter external links\"",
+                    "target": "description:\"multi-value frontmatter external links\""
+                },
+                {
+                    "source": "description:\"multi-value frontmatter links\"",
+                    "target": "description:\"multi-value frontmatter links\""
+                },
+                {
+                    "source": "name:\"Delete empty folders\"",
+                    "target": "name:\"Delete empty folders\""
+                },
+                {
+                    "source": "name:\"Custom Attachment Location\"",
+                    "target": "name:\"Custom Attachment Location\""
+                },
+                {
+                    "source": "name:\"Consistent Attachments and Links\"",
+                    "target": "name:\"Consistent Attachments and Links\""
+                },
+                {
+                    "source": "name:\"Better Markdown Links\"",
+                    "target": "name:\"Better Markdown Links\""
+                },
+                {
+                    "source": "name:\"External Rename Handler\"",
+                    "target": "name:\"External Rename Handler\""
+                },
+                {
+                    "source": "name:\"Frontmatter Markdown Links\"",
+                    "target": "name:\"Frontmatter Markdown Links\""
+                },
+                {
+                    "source": "name:\"Should handle renames\"",
+                    "target": "name:\"Should handle renames\""
+                },
+                {
+                    "source": "name:\"Should update file name aliases\"",
+                    "target": "name:\"Should update file name aliases\""
+                },
+                {
+                    "source": "name:\"Should rename attachment folder\"",
+                    "target": "name:\"Should rename attachment folder\""
+                },
+                {
+                    "source": "name:\"Should rename attachment files\"",
+                    "target": "name:\"Should rename attachment files\""
+                },
+                {
+                    "source": "name:\"Should delete conflicting attachments\"",
+                    "target": "name:\"Should delete conflicting attachments\""
+                },
+                {
+                    "source": "name:\"Should handle deletions\"",
+                    "target": "name:\"Should handle deletions\""
+                },
+                {
+                    "source": "name:\"Empty folder behavior\"",
+                    "target": "name:\"Empty folder behavior\""
+                },
+                {
+                    "source": "name:\"Should rescue shared attachments\"",
+                    "target": "name:\"Should rescue shared attachments\""
+                },
+                {
+                    "source": "name:\"Note priorities\"",
+                    "target": "name:\"Note priorities\""
+                },
+                {
+                    "source": "name:\"Treat as attachment extensions\"",
+                    "target": "name:\"Treat as attachment extensions\""
+                },
+                {
+                    "source": "name:\"Include paths\"",
+                    "target": "name:\"Include paths\""
+                },
+                {
+                    "source": "name:\"Exclude paths\"",
+                    "target": "name:\"Exclude paths\""
+                },
+                {
+                    "source": "text:`${this.sourcePluginName} used to handle renames and deletions itself and no longer does. It proposes the settings it held, so this vault keeps behaving the way it did.`",
+                    "target": "text:`${this.sourcePluginName} used to handle renames and deletions itself and no longer does. It proposes the settings it held, so this vault keeps behaving the way it did.`"
+                },
+                {
+                    "source": "text:\"Each row shows what this plugin holds now and what is proposed. Edit a suggested value, or reset a row to keep the current one. Nothing is written until you press OK.\"",
+                    "target": "text:\"Each row shows what this plugin holds now and what is proposed. Edit a suggested value, or reset a row to keep the current one. Nothing is written until you press OK.\""
+                },
+                {
+                    "source": "name:\"When several notes could adopt the attachment\"",
+                    "target": "name:\"When several notes could adopt the attachment\""
+                },
+                {
+                    "source": "text:`${this.attachmentPath} survives this deletion because other notes still reference it, so the folder holding it survives too.`",
+                    "target": "text:`${this.attachmentPath} survives this deletion because other notes still reference it, so the folder holding it survives too.`"
+                },
+                {
+                    "source": "text:\"Pick the note that should adopt it, or leave it where it is.\"",
+                    "target": "text:\"Pick the note that should adopt it, or leave it where it is.\""
+                },
+                {
+                    "source": "text:\"Still referenced by:\"",
+                    "target": "text:\"Still referenced by:\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,754 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-advanced-uri",
+        "version": "1.0.0",
+        "title": "Advanced URI",
+        "description": "Advanced URI Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "id",
+                    "target": "id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ID",
+                    "target": "ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Name",
+                    "target": "Name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add format",
+                    "target": "Add format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose whether to use the vault name or its internal ID as the identifying parameter.",
+                    "target": "Choose whether to use the vault name or its internal ID as the identifying parameter."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When using uid instead of file paths, you can still add the filepath parameter to know what this URI is about. It's not actually used.",
+                    "target": "When using uid instead of file paths, you can still add the filepath parameter to know what this URI is about. It's not actually used."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define custom link formats to use when using 'Copy formatted URI for ...' commands. Specify a name to identify and the format template. Available variables:",
+                    "target": "Define custom link formats to use when using 'Copy formatted URI for ...' commands. Specify a name to identify and the format template. Available variables:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you like this plugin, consider donating to support continued development.",
+                    "target": "If you like this plugin, consider donating to support continued development."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open file on write",
+                    "target": "Open file on write"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open file on write in a new pane",
+                    "target": "Open file on write in a new pane"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open daily note in a new pane",
+                    "target": "Open daily note in a new pane"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open file without write in new pane",
+                    "target": "Open file without write in new pane"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use UID instead of file paths",
+                    "target": "Use UID instead of file paths"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include vault name/ID parameter",
+                    "target": "Include vault name/ID parameter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault identifying parameter",
+                    "target": "Vault identifying parameter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add filepath parameter",
+                    "target": "Add filepath parameter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UID field in frontmatter",
+                    "target": "UID field in frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link formats",
+                    "target": "Link formats"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add link format",
+                    "target": "Add link format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Support",
+                    "target": "Support"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Donate",
+                    "target": "Donate"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type your data to be written to the file or leave it empty to just open it",
+                    "target": "Type your data to be written to the file or leave it empty to just open it"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Replacement text",
+                    "target": "Replacement text"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Searched text. Regex is supported",
+                    "target": "Searched text. Regex is supported"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Name",
+                    "target": "Name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose a workspace",
+                    "target": "Choose a workspace"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{uri}} - The Advanced URI",
+                    "target": "{{uri}} - The Advanced URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{path}} - The file path",
+                    "target": "{{path}} - The file path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{name}} - The file name",
+                    "target": "{{name}} - The file name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{folder}} - The path of the file folder",
+                    "target": "{{folder}} - The path of the file folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{vaultName}} - The vault name",
+                    "target": "{{vaultName}} - The vault name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{vaultId}} - The vault id",
+                    "target": "{{vaultId}} - The vault id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{uid}} - The file's UID, defaults to file name if not available",
+                    "target": "{{uid}} - The file's UID, defaults to file name if not available"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{alias}} - The file's first alias, defaults to file name if not available",
+                    "target": "{{alias}} - The file's first alias, defaults to file name if not available"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy Advanced URI",
+                    "target": "Copy Advanced URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy formatted Advanced URI",
+                    "target": "Copy formatted Advanced URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead.",
+                    "target": "feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sync instance not found, not waiting",
+                    "target": "sync instance not found, not waiting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sync plugin is disabled, not waiting",
+                    "target": "sync plugin is disabled, not waiting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sync instance does not have expected properties, not waiting",
+                    "target": "sync instance does not have expected properties, not waiting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sync instance not ready after 10 seconds, not waiting",
+                    "target": "sync instance not ready after 10 seconds, not waiting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sync instance still syncing after 60 seconds, not waiting",
+                    "target": "sync instance still syncing after 60 seconds, not waiting"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Adv. URI: Waiting for sync to complete...",
+                    "target": "Adv. URI: Waiting for sync to complete..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find heading",
+                    "target": "Can't find heading"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find block",
+                    "target": "Can't find block"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to parse data, check console for more details",
+                    "target": "Failed to parse data, check console for more details"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update frontmatter, check console for more details",
+                    "target": "Failed to update frontmatter, check console for more details"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Workspaces plugin is not enabled",
+                    "target": "Workspaces plugin is not enabled"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The eval URI parameter was removed due to security concerns and newer Obsidian plugin checks.",
+                    "target": "The eval URI parameter was removed due to security concerns and newer Obsidian plugin checks."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot find file",
+                    "target": "Cannot find file"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File already exists",
+                    "target": "File already exists"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file opened",
+                    "target": "No file opened"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Checking for updates…",
+                    "target": "Checking for updates…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active view",
+                    "target": "No active view"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active view is not a canvas",
+                    "target": "Active view is not a canvas"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No link formats defined in the settings",
+                    "target": "No link formats defined in the settings"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No link format selected",
+                    "target": "No link format selected"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Advanced URI copied to your clipboard",
+                    "target": "Advanced URI copied to your clipboard"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily notes plugin is not loaded",
+                    "target": "Daily notes plugin is not loaded"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot find hover editor plugin. Please file an issue.",
+                    "target": "Cannot find hover editor plugin. Please file an issue."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>",
+                    "target": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>",
+                    "target": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for file with options",
+                    "target": "Copy URI for file with options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for current file",
+                    "target": "Copy URI for current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy formatted URI for file with options ",
+                    "target": "Copy formatted URI for file with options "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy formatted URI for current file",
+                    "target": "Copy formatted URI for current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for daily note",
+                    "target": "Copy URI for daily note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for search and replace",
+                    "target": "Copy URI for search and replace"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for command",
+                    "target": "Copy URI for command"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for current block",
+                    "target": "Copy URI for current block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy formatted URI for current block",
+                    "target": "Copy formatted URI for current block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for workspace",
+                    "target": "Copy URI for workspace"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for selected canvas nodes",
+                    "target": "Copy URI for selected canvas nodes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for current canvas viewport",
+                    "target": "Copy URI for current canvas viewport"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select link format",
+                    "target": "Select link format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>",
+                    "target": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Type your data to be written to the file or leave it empty to just open it\")",
+                    "target": "setPlaceholder(\"Type your data to be written to the file or leave it empty to just open it\")"
+                },
+                {
+                    "source": "Notice(\"Can't find heading\")",
+                    "target": "Notice(\"Can't find heading\")"
+                },
+                {
+                    "source": "Notice(\"Can't find block\")",
+                    "target": "Notice(\"Can't find block\")"
+                },
+                {
+                    "source": "Notice(`Enabled ${e}`)",
+                    "target": "Notice(`Enabled ${e}`)"
+                },
+                {
+                    "source": "Notice(`Disabled ${e}`)",
+                    "target": "Notice(`Disabled ${e}`)"
+                },
+                {
+                    "source": "Notice(\"Failed to parse data, check console for more details\")",
+                    "target": "Notice(\"Failed to parse data, check console for more details\")"
+                },
+                {
+                    "source": "Notice(`Invalid key in path.\n${d.message}`)",
+                    "target": "Notice(`Invalid key in path.\n${d.message}`)"
+                },
+                {
+                    "source": "Notice(\"Failed to update frontmatter, check console for more details\")",
+                    "target": "Notice(\"Failed to update frontmatter, check console for more details\")"
+                },
+                {
+                    "source": "Notice(\"Workspaces plugin is not enabled\")",
+                    "target": "Notice(\"Workspaces plugin is not enabled\")"
+                },
+                {
+                    "source": "Notice(`Saved current workspace to ${t}`)",
+                    "target": "Notice(`Saved current workspace to ${t}`)"
+                },
+                {
+                    "source": "Notice(\"The eval URI parameter was removed due to security concerns and newer Obsidian plugin checks.\")",
+                    "target": "Notice(\"The eval URI parameter was removed due to security concerns and newer Obsidian plugin checks.\")"
+                },
+                {
+                    "source": "Notice(`Can't parse ${n.searchregex} as RegEx`)",
+                    "target": "Notice(`Can't parse ${n.searchregex} as RegEx`)"
+                },
+                {
+                    "source": "Notice(\"Cannot find file\")",
+                    "target": "Notice(\"Cannot find file\")"
+                },
+                {
+                    "source": "Notice(\"File already exists\")",
+                    "target": "Notice(\"File already exists\")"
+                },
+                {
+                    "source": "Notice(\"No file opened\")",
+                    "target": "Notice(\"No file opened\")"
+                },
+                {
+                    "source": "Notice(\"No active view\")",
+                    "target": "Notice(\"No active view\")"
+                },
+                {
+                    "source": "Notice(\"Active view is not a canvas\")",
+                    "target": "Notice(\"Active view is not a canvas\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Replacement text\")",
+                    "target": "setPlaceholder(\"Replacement text\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Searched text. Regex is supported\")",
+                    "target": "setPlaceholder(\"Searched text. Regex is supported\")"
+                },
+                {
+                    "source": "setName(\"Open file on write\")",
+                    "target": "setName(\"Open file on write\")"
+                },
+                {
+                    "source": "setName(\"Open file on write in a new pane\")",
+                    "target": "setName(\"Open file on write in a new pane\")"
+                },
+                {
+                    "source": "setName(\"Open daily note in a new pane\")",
+                    "target": "setName(\"Open daily note in a new pane\")"
+                },
+                {
+                    "source": "setName(\"Open file without write in new pane\")",
+                    "target": "setName(\"Open file without write in new pane\")"
+                },
+                {
+                    "source": "setName(\"Use UID instead of file paths\")",
+                    "target": "setName(\"Use UID instead of file paths\")"
+                },
+                {
+                    "source": "setName(\"Include vault name/ID parameter\")",
+                    "target": "setName(\"Include vault name/ID parameter\")"
+                },
+                {
+                    "source": "setName(\"Vault identifying parameter\")",
+                    "target": "setName(\"Vault identifying parameter\")"
+                },
+                {
+                    "source": "setDesc(\"Choose whether to use the vault name or its internal ID as the identifying parameter.\")",
+                    "target": "setDesc(\"Choose whether to use the vault name or its internal ID as the identifying parameter.\")"
+                },
+                {
+                    "source": "setName(\"Add filepath parameter\")",
+                    "target": "setName(\"Add filepath parameter\")"
+                },
+                {
+                    "source": "setDesc(\"When using uid instead of file paths, you can still add the filepath parameter to know what this URI is about. It's not actually used.\")",
+                    "target": "setDesc(\"When using uid instead of file paths, you can still add the filepath parameter to know what this URI is about. It's not actually used.\")"
+                },
+                {
+                    "source": "setName(\"UID field in frontmatter\")",
+                    "target": "setName(\"UID field in frontmatter\")"
+                },
+                {
+                    "source": "setName(\"Link formats\")",
+                    "target": "setName(\"Link formats\")"
+                },
+                {
+                    "source": "setDesc(\"Define custom link formats to use when using 'Copy formatted URI for ...' commands. Specify a name to identify and the format template. Available variables:\")",
+                    "target": "setDesc(\"Define custom link formats to use when using 'Copy formatted URI for ...' commands. Specify a name to identify and the format template. Available variables:\")"
+                },
+                {
+                    "source": "setText(\"{{uri}} - The Advanced URI\")",
+                    "target": "setText(\"{{uri}} - The Advanced URI\")"
+                },
+                {
+                    "source": "setText(\"{{path}} - The file path\")",
+                    "target": "setText(\"{{path}} - The file path\")"
+                },
+                {
+                    "source": "setText(\"{{name}} - The file name\")",
+                    "target": "setText(\"{{name}} - The file name\")"
+                },
+                {
+                    "source": "setText(\"{{folder}} - The path of the file folder\")",
+                    "target": "setText(\"{{folder}} - The path of the file folder\")"
+                },
+                {
+                    "source": "setText(\"{{vaultName}} - The vault name\")",
+                    "target": "setText(\"{{vaultName}} - The vault name\")"
+                },
+                {
+                    "source": "setText(\"{{vaultId}} - The vault id\")",
+                    "target": "setText(\"{{vaultId}} - The vault id\")"
+                },
+                {
+                    "source": "setText(\"{{uid}} - The file's UID, defaults to file name if not available\")",
+                    "target": "setText(\"{{uid}} - The file's UID, defaults to file name if not available\")"
+                },
+                {
+                    "source": "setText(\"{{alias}} - The file's first alias, defaults to file name if not available\")",
+                    "target": "setText(\"{{alias}} - The file's first alias, defaults to file name if not available\")"
+                },
+                {
+                    "source": "setName(\"Add link format\")",
+                    "target": "setName(\"Add link format\")"
+                },
+                {
+                    "source": "setButtonText(\"Add format\")",
+                    "target": "setButtonText(\"Add format\")"
+                },
+                {
+                    "source": "setName(`#${o+1} Format`)",
+                    "target": "setName(`#${o+1} Format`)"
+                },
+                {
+                    "source": "setDesc(\"If you like this plugin, consider donating to support continued development.\")",
+                    "target": "setDesc(\"If you like this plugin, consider donating to support continued development.\")"
+                },
+                {
+                    "source": "Notice(\"No link formats defined in the settings\")",
+                    "target": "Notice(\"No link formats defined in the settings\")"
+                },
+                {
+                    "source": "Notice(\"No link format selected\")",
+                    "target": "Notice(\"No link format selected\")"
+                },
+                {
+                    "source": "Notice(`Advanced URI in format \"${c.name}\" copied to your clipboard`)",
+                    "target": "Notice(`Advanced URI in format \"${c.name}\" copied to your clipboard`)"
+                },
+                {
+                    "source": "Notice(\"Advanced URI copied to your clipboard\")",
+                    "target": "Notice(\"Advanced URI copied to your clipboard\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Choose a workspace\")",
+                    "target": "setPlaceholder(\"Choose a workspace\")"
+                },
+                {
+                    "source": "setTitle(\"Copy Advanced URI\")",
+                    "target": "setTitle(\"Copy Advanced URI\")"
+                },
+                {
+                    "source": "setTitle(\"Copy formatted Advanced URI\")",
+                    "target": "setTitle(\"Copy formatted Advanced URI\")"
+                },
+                {
+                    "source": "Notice(\"Daily notes plugin is not loaded\")",
+                    "target": "Notice(\"Daily notes plugin is not loaded\")"
+                },
+                {
+                    "source": "Notice(\"Cannot find hover editor plugin. Please file an issue.\")",
+                    "target": "Notice(\"Cannot find hover editor plugin. Please file an issue.\")"
+                },
+                {
+                    "source": "name:\"Copy URI for file with options\"",
+                    "target": "name:\"Copy URI for file with options\""
+                },
+                {
+                    "source": "name:\"Copy URI for current file\"",
+                    "target": "name:\"Copy URI for current file\""
+                },
+                {
+                    "source": "name:\"Copy formatted URI for file with options \"",
+                    "target": "name:\"Copy formatted URI for file with options \""
+                },
+                {
+                    "source": "name:\"Copy formatted URI for current file\"",
+                    "target": "name:\"Copy formatted URI for current file\""
+                },
+                {
+                    "source": "name:\"Copy URI for daily note\"",
+                    "target": "name:\"Copy URI for daily note\""
+                },
+                {
+                    "source": "name:\"Copy URI for search and replace\"",
+                    "target": "name:\"Copy URI for search and replace\""
+                },
+                {
+                    "source": "name:\"Copy URI for command\"",
+                    "target": "name:\"Copy URI for command\""
+                },
+                {
+                    "source": "name:\"Copy URI for current block\"",
+                    "target": "name:\"Copy URI for current block\""
+                },
+                {
+                    "source": "name:\"Copy formatted URI for current block\"",
+                    "target": "name:\"Copy formatted URI for current block\""
+                },
+                {
+                    "source": "name:\"Copy URI for workspace\"",
+                    "target": "name:\"Copy URI for workspace\""
+                },
+                {
+                    "source": "name:\"Copy URI for selected canvas nodes\"",
+                    "target": "name:\"Copy URI for selected canvas nodes\""
+                },
+                {
+                    "source": "name:\"Copy URI for current canvas viewport\"",
+                    "target": "name:\"Copy URI for current canvas viewport\""
+                }
+            ]
+        }
+    }
+}
