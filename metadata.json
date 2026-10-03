@@ -5,11 +5,11 @@
         "language": "zh-cn",
         "version": "2.3.0",
         "supported_versions": "2.3.0",
-        "title": "[zh-cn] Claudian",
+        "title": "[Rainie][zh-cn] Claudian",
         "description": "Claudian Localization & Tweaks",
-        "hash": "545da35f545da35f545da35f545da35f",
+        "hash": "1cb5a9181cb5a9181cb5a9181cb5a918",
         "created_at": "2026-10-03T01:11:39.910Z",
-        "updated_at": "2026-10-03T01:11:39.910Z",
+        "updated_at": "2026-10-03T01:14:58.995Z",
         "type": "plugin"
     }
 ]
